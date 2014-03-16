@@ -4,7 +4,7 @@ Feature
 
 -> Painting With Some FingerGestures  
 
--> Change Color and LineWidth With FingetGesture
+-> Change Color and LineWidth With FingerGesture
 
 -> Delete Line With HandGesture
 
