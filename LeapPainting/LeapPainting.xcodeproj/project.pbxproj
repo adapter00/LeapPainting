@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821848A118CC953E00B9B63E /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 821848A018CC953E00B9B63E /* PaintingView.m */; };
+		826DBFEE18D4241F00125045 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826DBFED18D4241F00125045 /* CoreGraphics.framework */; };
+		826DBFEF18D4250500125045 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AA84D118A9E5D50006CCD8 /* AppKit.framework */; };
+		82AA84CF18A9E5D50006CCD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AA84CE18A9E5D50006CCD8 /* Cocoa.framework */; };
+		82AA84D918A9E5D50006CCD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AA84D718A9E5D50006CCD8 /* InfoPlist.strings */; };
+		82AA84DB18A9E5D50006CCD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA84DA18A9E5D50006CCD8 /* main.m */; };
+		82AA84DF18A9E5D50006CCD8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82AA84DD18A9E5D50006CCD8 /* Credits.rtf */; };
+		82AA84E218A9E5D50006CCD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA84E118A9E5D50006CCD8 /* AppDelegate.m */; };
+		82AA84E518A9E5D50006CCD8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AA84E318A9E5D50006CCD8 /* MainMenu.xib */; };
+		82AA84E718A9E5D50006CCD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AA84E618A9E5D50006CCD8 /* Images.xcassets */; };
+		82AA84EE18A9E5D50006CCD8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AA84ED18A9E5D50006CCD8 /* XCTest.framework */; };
+		82AA84EF18A9E5D50006CCD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AA84CE18A9E5D50006CCD8 /* Cocoa.framework */; };
+		82AA84F718A9E5D50006CCD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AA84F518A9E5D50006CCD8 /* InfoPlist.strings */; };
+		82AA84F918A9E5D50006CCD8 /* LeapPaintingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA84F818A9E5D50006CCD8 /* LeapPaintingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82AA84F018A9E5D50006CCD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AA84C318A9E5D50006CCD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AA84CA18A9E5D50006CCD8;
+			remoteInfo = LeapPainting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8218489F18CC953E00B9B63E /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintingView.h; sourceTree = "<group>"; };
+		821848A018CC953E00B9B63E /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintingView.m; sourceTree = "<group>"; };
+		826DBFED18D4241F00125045 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82AA84CB18A9E5D50006CCD8 /* LeapPainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeapPainting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AA84CE18A9E5D50006CCD8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82AA84D118A9E5D50006CCD8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82AA84D218A9E5D50006CCD8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82AA84D318A9E5D50006CCD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82AA84D618A9E5D50006CCD8 /* LeapPainting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeapPainting-Info.plist"; sourceTree = "<group>"; };
+		82AA84D818A9E5D50006CCD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82AA84DA18A9E5D50006CCD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82AA84DC18A9E5D50006CCD8 /* LeapPainting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeapPainting-Prefix.pch"; sourceTree = "<group>"; };
+		82AA84DE18A9E5D50006CCD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		82AA84E018A9E5D50006CCD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82AA84E118A9E5D50006CCD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82AA84E418A9E5D50006CCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82AA84E618A9E5D50006CCD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82AA84EC18A9E5D50006CCD8 /* LeapPaintingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapPaintingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AA84ED18A9E5D50006CCD8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82AA84F418A9E5D50006CCD8 /* LeapPaintingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeapPaintingTests-Info.plist"; sourceTree = "<group>"; };
+		82AA84F618A9E5D50006CCD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82AA84F818A9E5D50006CCD8 /* LeapPaintingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeapPaintingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AA84C818A9E5D50006CCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826DBFEF18D4250500125045 /* AppKit.framework in Frameworks */,
+				826DBFEE18D4241F00125045 /* CoreGraphics.framework in Frameworks */,
+				82AA84CF18A9E5D50006CCD8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AA84E918A9E5D50006CCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA84EF18A9E5D50006CCD8 /* Cocoa.framework in Frameworks */,
+				82AA84EE18A9E5D50006CCD8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AA84C218A9E5D50006CCD8 = {
+			isa = PBXGroup;
+			children = (
+				82AA84D418A9E5D50006CCD8 /* LeapPainting */,
+				82AA84F218A9E5D50006CCD8 /* LeapPaintingTests */,
+				82AA84CD18A9E5D50006CCD8 /* Frameworks */,
+				82AA84CC18A9E5D50006CCD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82AA84CC18A9E5D50006CCD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AA84CB18A9E5D50006CCD8 /* LeapPainting.app */,
+				82AA84EC18A9E5D50006CCD8 /* LeapPaintingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AA84CD18A9E5D50006CCD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				826DBFED18D4241F00125045 /* CoreGraphics.framework */,
+				82AA84CE18A9E5D50006CCD8 /* Cocoa.framework */,
+				82AA84ED18A9E5D50006CCD8 /* XCTest.framework */,
+				82AA84D018A9E5D50006CCD8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82AA84D018A9E5D50006CCD8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82AA84D118A9E5D50006CCD8 /* AppKit.framework */,
+				82AA84D218A9E5D50006CCD8 /* CoreData.framework */,
+				82AA84D318A9E5D50006CCD8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82AA84D418A9E5D50006CCD8 /* LeapPainting */ = {
+			isa = PBXGroup;
+			children = (
+				82AA84E018A9E5D50006CCD8 /* AppDelegate.h */,
+				82AA84E118A9E5D50006CCD8 /* AppDelegate.m */,
+				82AA84E318A9E5D50006CCD8 /* MainMenu.xib */,
+				82AA84E618A9E5D50006CCD8 /* Images.xcassets */,
+				82AA84D518A9E5D50006CCD8 /* Supporting Files */,
+				8218489F18CC953E00B9B63E /* PaintingView.h */,
+				821848A018CC953E00B9B63E /* PaintingView.m */,
+			);
+			path = LeapPainting;
+			sourceTree = "<group>";
+		};
+		82AA84D518A9E5D50006CCD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82AA84D618A9E5D50006CCD8 /* LeapPainting-Info.plist */,
+				82AA84D718A9E5D50006CCD8 /* InfoPlist.strings */,
+				82AA84DA18A9E5D50006CCD8 /* main.m */,
+				82AA84DC18A9E5D50006CCD8 /* LeapPainting-Prefix.pch */,
+				82AA84DD18A9E5D50006CCD8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82AA84F218A9E5D50006CCD8 /* LeapPaintingTests */ = {
+			isa = PBXGroup;
+			children = (
+				82AA84F818A9E5D50006CCD8 /* LeapPaintingTests.m */,
+				82AA84F318A9E5D50006CCD8 /* Supporting Files */,
+			);
+			path = LeapPaintingTests;
+			sourceTree = "<group>";
+		};
+		82AA84F318A9E5D50006CCD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82AA84F418A9E5D50006CCD8 /* LeapPaintingTests-Info.plist */,
+				82AA84F518A9E5D50006CCD8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82AA84CA18A9E5D50006CCD8 /* LeapPainting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AA84FC18A9E5D50006CCD8 /* Build configuration list for PBXNativeTarget "LeapPainting" */;
+			buildPhases = (
+				82AA84C718A9E5D50006CCD8 /* Sources */,
+				82AA84C818A9E5D50006CCD8 /* Frameworks */,
+				82AA84C918A9E5D50006CCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeapPainting;
+			productName = LeapPainting;
+			productReference = 82AA84CB18A9E5D50006CCD8 /* LeapPainting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82AA84EB18A9E5D50006CCD8 /* LeapPaintingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AA84FF18A9E5D50006CCD8 /* Build configuration list for PBXNativeTarget "LeapPaintingTests" */;
+			buildPhases = (
+				82AA84E818A9E5D50006CCD8 /* Sources */,
+				82AA84E918A9E5D50006CCD8 /* Frameworks */,
+				82AA84EA18A9E5D50006CCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AA84F118A9E5D50006CCD8 /* PBXTargetDependency */,
+			);
+			name = LeapPaintingTests;
+			productName = LeapPaintingTests;
+			productReference = 82AA84EC18A9E5D50006CCD8 /* LeapPaintingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AA84C318A9E5D50006CCD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "前田 恭男";
+				TargetAttributes = {
+					82AA84EB18A9E5D50006CCD8 = {
+						TestTargetID = 82AA84CA18A9E5D50006CCD8;
+					};
+				};
+			};
+			buildConfigurationList = 82AA84C618A9E5D50006CCD8 /* Build configuration list for PBXProject "LeapPainting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82AA84C218A9E5D50006CCD8;
+			productRefGroup = 82AA84CC18A9E5D50006CCD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AA84CA18A9E5D50006CCD8 /* LeapPainting */,
+				82AA84EB18A9E5D50006CCD8 /* LeapPaintingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AA84C918A9E5D50006CCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA84D918A9E5D50006CCD8 /* InfoPlist.strings in Resources */,
+				82AA84E718A9E5D50006CCD8 /* Images.xcassets in Resources */,
+				82AA84DF18A9E5D50006CCD8 /* Credits.rtf in Resources */,
+				82AA84E518A9E5D50006CCD8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AA84EA18A9E5D50006CCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA84F718A9E5D50006CCD8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AA84C718A9E5D50006CCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA84E218A9E5D50006CCD8 /* AppDelegate.m in Sources */,
+				82AA84DB18A9E5D50006CCD8 /* main.m in Sources */,
+				821848A118CC953E00B9B63E /* PaintingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AA84E818A9E5D50006CCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA84F918A9E5D50006CCD8 /* LeapPaintingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82AA84F118A9E5D50006CCD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AA84CA18A9E5D50006CCD8 /* LeapPainting */;
+			targetProxy = 82AA84F018A9E5D50006CCD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82AA84D718A9E5D50006CCD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AA84D818A9E5D50006CCD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82AA84DD18A9E5D50006CCD8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AA84DE18A9E5D50006CCD8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		82AA84E318A9E5D50006CCD8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AA84E418A9E5D50006CCD8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		82AA84F518A9E5D50006CCD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AA84F618A9E5D50006CCD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AA84FA18A9E5D50006CCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82AA84FB18A9E5D50006CCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82AA84FD18A9E5D50006CCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeapPainting/LeapPainting-Prefix.pch";
+				INFOPLIST_FILE = "LeapPainting/LeapPainting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82AA84FE18A9E5D50006CCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeapPainting/LeapPainting-Prefix.pch";
+				INFOPLIST_FILE = "LeapPainting/LeapPainting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82AA850018A9E5D50006CCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeapPainting.app/Contents/MacOS/LeapPainting";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeapPainting/LeapPainting-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LeapPaintingTests/LeapPaintingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82AA850118A9E5D50006CCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeapPainting.app/Contents/MacOS/LeapPainting";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeapPainting/LeapPainting-Prefix.pch";
+				INFOPLIST_FILE = "LeapPaintingTests/LeapPaintingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AA84C618A9E5D50006CCD8 /* Build configuration list for PBXProject "LeapPainting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AA84FA18A9E5D50006CCD8 /* Debug */,
+				82AA84FB18A9E5D50006CCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AA84FC18A9E5D50006CCD8 /* Build configuration list for PBXNativeTarget "LeapPainting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AA84FD18A9E5D50006CCD8 /* Debug */,
+				82AA84FE18A9E5D50006CCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AA84FF18A9E5D50006CCD8 /* Build configuration list for PBXNativeTarget "LeapPaintingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AA850018A9E5D50006CCD8 /* Debug */,
+				82AA850118A9E5D50006CCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AA84C318A9E5D50006CCD8 /* Project object */;
+}
