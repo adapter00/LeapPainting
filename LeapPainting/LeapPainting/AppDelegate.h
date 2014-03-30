@@ -13,9 +13,4 @@
 
 
 @property (assign) IBOutlet NSWindow *window;
-
-
--(void)globalMousemoved:(NSEvent *)event;
-
-
 @end

@@ -32,9 +32,6 @@
     return self;
 }
 
--(void)mouseEntered:(NSEvent *)theEvent{
-}
-
 -(void)mouseDragged:(NSEvent *)theEvent{
     NSPoint point = [theEvent locationInWindow];
     if(prePoint.x != 0 && prePoint.y != 0){
@@ -43,9 +40,12 @@
     prePoint =point;
 }
 
+-(void)moudDraggedWithLeap{}
+
 -(void)changeLineColor :(NSColor*) color{
     kLineColor = [color CGColor];
 }
+
 -(void)changeLineWidth :(float)lineWidth{
     kLineWidth  =lineWidth;
 }

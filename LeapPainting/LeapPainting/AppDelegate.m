@@ -8,11 +8,10 @@
 
 #import "AppDelegate.h"
 #import "PaintingView.h"
+#import "LeapListner.h"
 
 @interface AppDelegate (){
-    NSWindowController *_preferencesPanelController;
-    NSWindowController *_graphicsInspectorController;
-    NSWindowController *_gridInspectorController;
+    LeapListner *lisnter;
 }
 
 @end
@@ -23,21 +22,8 @@
 {
     PaintingView *view = [[PaintingView alloc] initWithFrame:CGRectMake(0, 0, [_window frame].size.width, [_window frame].size.height)];
     [_window setContentView:view];
-//    [NSEvent addLocalMonitorForEventsMatchingMask:NSMouseMoved handler:^(NSEvent *event){
-//        [self globalMousemoved:event];
-//        return event;
-//    }];
-}
-
-
--(void)globalMousemoved:(NSEvent *)event{
-    //左下原点のマウス座標を取得
-    CGEventRef eventRef = CGEventCreate(NULL);
-    CGPoint point = CGEventGetLocation(eventRef);
-    //CGEventRefの解放
-    CFRelease(eventRef);
-    //ログ表示
-    NSLog(@"LocalMouseMoved : x = %f ,y = %f",point.x,point.y);
+    lisnter = [[LeapListner alloc] init];
+    [lisnter run];
 }
 
 @end
