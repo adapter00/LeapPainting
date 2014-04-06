@@ -7,7 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "LeapObjectiveC.h"
 
-@interface PaintingView : NSView
+@interface PaintingView : NSView<LeapDelegate>
 
 @end

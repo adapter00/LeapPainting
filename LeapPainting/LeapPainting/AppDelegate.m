@@ -8,10 +8,9 @@
 
 #import "AppDelegate.h"
 #import "PaintingView.h"
-#import "LeapListner.h"
 
 @interface AppDelegate (){
-    LeapListner *lisnter;
+//    LeapListner *lisnter;
 }
 
 @end
@@ -22,8 +21,6 @@
 {
     PaintingView *view = [[PaintingView alloc] initWithFrame:CGRectMake(0, 0, [_window frame].size.width, [_window frame].size.height)];
     [_window setContentView:view];
-    lisnter = [[LeapListner alloc] init];
-    [lisnter run];
 }
 
 @end

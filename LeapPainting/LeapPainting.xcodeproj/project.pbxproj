@@ -13,7 +13,6 @@
 		828822D718DD5659008F8783 /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 828822D518DD5659008F8783 /* LeapObjectiveC.mm */; };
 		828822D918DD5679008F8783 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 828822D818DD5679008F8783 /* libLeap.dylib */; };
 		828822DB18DD56BE008F8783 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 828822D818DD5679008F8783 /* libLeap.dylib */; };
-		828822DE18DD5795008F8783 /* LeapListner.m in Sources */ = {isa = PBXBuildFile; fileRef = 828822DD18DD5795008F8783 /* LeapListner.m */; };
 		82AA84CF18A9E5D50006CCD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AA84CE18A9E5D50006CCD8 /* Cocoa.framework */; };
 		82AA84D918A9E5D50006CCD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AA84D718A9E5D50006CCD8 /* InfoPlist.strings */; };
 		82AA84DB18A9E5D50006CCD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA84DA18A9E5D50006CCD8 /* main.m */; };
@@ -59,8 +58,6 @@
 		828822D418DD5659008F8783 /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapObjectiveC.h; path = ../../../../Dev_tool/LeapSDK/include/LeapObjectiveC.h; sourceTree = "<group>"; };
 		828822D518DD5659008F8783 /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LeapObjectiveC.mm; path = ../../../../Dev_tool/LeapSDK/include/LeapObjectiveC.mm; sourceTree = "<group>"; };
 		828822D818DD5679008F8783 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = ../../../Dev_tool/LeapSDK/lib/libLeap.dylib; sourceTree = "<group>"; };
-		828822DC18DD5795008F8783 /* LeapListner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapListner.h; sourceTree = "<group>"; };
-		828822DD18DD5795008F8783 /* LeapListner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeapListner.m; sourceTree = "<group>"; };
 		82AA84CB18A9E5D50006CCD8 /* LeapPainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeapPainting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AA84CE18A9E5D50006CCD8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		82AA84D118A9E5D50006CCD8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -157,8 +154,6 @@
 				82AA84D518A9E5D50006CCD8 /* Supporting Files */,
 				8218489F18CC953E00B9B63E /* PaintingView.h */,
 				821848A018CC953E00B9B63E /* PaintingView.m */,
-				828822DC18DD5795008F8783 /* LeapListner.h */,
-				828822DD18DD5795008F8783 /* LeapListner.m */,
 			);
 			path = LeapPainting;
 			sourceTree = "<group>";
@@ -300,7 +295,6 @@
 				82AA84DB18A9E5D50006CCD8 /* main.m in Sources */,
 				828822D718DD5659008F8783 /* LeapObjectiveC.mm in Sources */,
 				821848A118CC953E00B9B63E /* PaintingView.m in Sources */,
-				828822DE18DD5795008F8783 /* LeapListner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
