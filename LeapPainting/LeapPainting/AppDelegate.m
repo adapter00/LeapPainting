@@ -7,11 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "PaintingView.h"
-#import "LeapListner.h"
+#import "LPViewController.h"
+#import "LeapPaintingController.h"
 
 @interface AppDelegate (){
-    LeapListner *lisnter;
+    LeapPaintingController *controller;
 }
 
 @end
@@ -20,10 +20,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    PaintingView *view = [[PaintingView alloc] initWithFrame:CGRectMake(0, 0, [_window frame].size.width, [_window frame].size.height)];
-    [_window setContentView:view];
-    lisnter = [[LeapListner alloc] init];
-    [lisnter run];
+    LPViewController *viewController= [[LPViewController alloc] initWithNibName:@"LPViewController" bundle:nil];
+    [_window setContentView:viewController.view];
+    controller = [[LeapPaintingController alloc] init];
+    [controller run];
 }
 
 @end

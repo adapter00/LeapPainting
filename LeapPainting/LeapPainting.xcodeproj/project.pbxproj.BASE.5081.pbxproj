@@ -7,20 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		821848A118CC953E00B9B63E /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 821848A018CC953E00B9B63E /* CanvasView.m */; };
+		821848A118CC953E00B9B63E /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 821848A018CC953E00B9B63E /* PaintingView.m */; };
 		826DBFEE18D4241F00125045 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826DBFED18D4241F00125045 /* CoreGraphics.framework */; };
 		826DBFEF18D4250500125045 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AA84D118A9E5D50006CCD8 /* AppKit.framework */; };
-		827BAB3518E8014E00545818 /* LPHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 827BAB3418E8014E00545818 /* LPHand.m */; };
-		827BAB3918E8078E00545818 /* LPHandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 827BAB3818E8078E00545818 /* LPHandView.m */; };
-		827BAB4218E80E2800545818 /* LeapPaintingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827BAB4118E80E2800545818 /* LeapPaintingController.m */; };
-		827BAB4718E99ED600545818 /* LPNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 827BAB4618E99ED600545818 /* LPNotification.m */; };
-		827BAB4A18EFF02300545818 /* LPDictionaryKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 827BAB4918EFF02100545818 /* LPDictionaryKey.m */; };
-		827BAB5718F0268900545818 /* LPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827BAB5518F0268900545818 /* LPViewController.m */; };
-		827BAB5818F0268900545818 /* LPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 827BAB5618F0268900545818 /* LPViewController.xib */; };
-		828822D718DD5659008F8783 /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 828822D518DD5659008F8783 /* LeapObjectiveC.mm */; };
-		828822D918DD5679008F8783 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 828822D818DD5679008F8783 /* libLeap.dylib */; };
-		828822DB18DD56BE008F8783 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 828822D818DD5679008F8783 /* libLeap.dylib */; };
-		828822DE18DD5795008F8783 /* LeapListner.m in Sources */ = {isa = PBXBuildFile; fileRef = 828822DD18DD5795008F8783 /* LeapListner.m */; };
 		82AA84CF18A9E5D50006CCD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AA84CE18A9E5D50006CCD8 /* Cocoa.framework */; };
 		82AA84D918A9E5D50006CCD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AA84D718A9E5D50006CCD8 /* InfoPlist.strings */; };
 		82AA84DB18A9E5D50006CCD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AA84DA18A9E5D50006CCD8 /* main.m */; };
@@ -44,43 +33,10 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		828822DA18DD56A9008F8783 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 6;
-			files = (
-				828822DB18DD56BE008F8783 /* libLeap.dylib in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		8218489F18CC953E00B9B63E /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
-		821848A018CC953E00B9B63E /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		8218489F18CC953E00B9B63E /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintingView.h; sourceTree = "<group>"; };
+		821848A018CC953E00B9B63E /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintingView.m; sourceTree = "<group>"; };
 		826DBFED18D4241F00125045 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		827BAB3318E8014E00545818 /* LPHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHand.h; sourceTree = "<group>"; };
-		827BAB3418E8014E00545818 /* LPHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHand.m; sourceTree = "<group>"; };
-		827BAB3718E8078E00545818 /* LPHandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHandView.h; sourceTree = "<group>"; };
-		827BAB3818E8078E00545818 /* LPHandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHandView.m; sourceTree = "<group>"; };
-		827BAB4018E80E2800545818 /* LeapPaintingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapPaintingController.h; sourceTree = "<group>"; };
-		827BAB4118E80E2800545818 /* LeapPaintingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeapPaintingController.m; sourceTree = "<group>"; };
-		827BAB4518E99ED600545818 /* LPNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPNotification.h; sourceTree = "<group>"; };
-		827BAB4618E99ED600545818 /* LPNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPNotification.m; sourceTree = "<group>"; };
-		827BAB4818EFF02100545818 /* LPDictionaryKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDictionaryKey.h; sourceTree = "<group>"; };
-		827BAB4918EFF02100545818 /* LPDictionaryKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDictionaryKey.m; sourceTree = "<group>"; };
-		827BAB5418F0268900545818 /* LPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPViewController.h; sourceTree = "<group>"; };
-		827BAB5518F0268900545818 /* LPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPViewController.m; sourceTree = "<group>"; };
-		827BAB5618F0268900545818 /* LPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPViewController.xib; sourceTree = "<group>"; };
-		828822D118DD5659008F8783 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leap.h; path = ../../../../Dev_tool/LeapSDK/include/Leap.h; sourceTree = "<group>"; };
-		828822D318DD5659008F8783 /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapMath.h; path = ../../../../Dev_tool/LeapSDK/include/LeapMath.h; sourceTree = "<group>"; };
-		828822D418DD5659008F8783 /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapObjectiveC.h; path = ../../../../Dev_tool/LeapSDK/include/LeapObjectiveC.h; sourceTree = "<group>"; };
-		828822D518DD5659008F8783 /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LeapObjectiveC.mm; path = ../../../../Dev_tool/LeapSDK/include/LeapObjectiveC.mm; sourceTree = "<group>"; };
-		828822D818DD5679008F8783 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = ../../../Dev_tool/LeapSDK/lib/libLeap.dylib; sourceTree = "<group>"; };
-		828822DC18DD5795008F8783 /* LeapListner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapListner.h; sourceTree = "<group>"; };
-		828822DD18DD5795008F8783 /* LeapListner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeapListner.m; sourceTree = "<group>"; };
 		82AA84CB18A9E5D50006CCD8 /* LeapPainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeapPainting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AA84CE18A9E5D50006CCD8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		82AA84D118A9E5D50006CCD8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -107,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828822D918DD5679008F8783 /* libLeap.dylib in Frameworks */,
 				826DBFEF18D4250500125045 /* AppKit.framework in Frameworks */,
 				826DBFEE18D4241F00125045 /* CoreGraphics.framework in Frameworks */,
 				82AA84CF18A9E5D50006CCD8 /* Cocoa.framework in Frameworks */,
@@ -126,74 +81,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		827BAB3A18E8094C00545818 /* DrawingView */ = {
-			isa = PBXGroup;
-			children = (
-				8218489F18CC953E00B9B63E /* CanvasView.h */,
-				821848A018CC953E00B9B63E /* CanvasView.m */,
-			);
-			name = DrawingView;
-			sourceTree = "<group>";
-		};
-		827BAB3B18E8095C00545818 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				829E00B218E7E0B700CD32EA /* LeapView */,
-				827BAB3A18E8094C00545818 /* DrawingView */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		827BAB3C18E8096B00545818 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				827BAB3318E8014E00545818 /* LPHand.h */,
-				827BAB3418E8014E00545818 /* LPHand.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		827BAB3D18E8097E00545818 /* Listner */ = {
-			isa = PBXGroup;
-			children = (
-				828822DC18DD5795008F8783 /* LeapListner.h */,
-				828822DD18DD5795008F8783 /* LeapListner.m */,
-			);
-			name = Listner;
-			sourceTree = "<group>";
-		};
-		827BAB3F18E80E0D00545818 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				827BAB4018E80E2800545818 /* LeapPaintingController.h */,
-				827BAB4118E80E2800545818 /* LeapPaintingController.m */,
-				827BAB5418F0268900545818 /* LPViewController.h */,
-				827BAB5518F0268900545818 /* LPViewController.m */,
-				827BAB5618F0268900545818 /* LPViewController.xib */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		827BAB4318E99E3A00545818 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				827BAB4518E99ED600545818 /* LPNotification.h */,
-				827BAB4618E99ED600545818 /* LPNotification.m */,
-				827BAB4818EFF02100545818 /* LPDictionaryKey.h */,
-				827BAB4918EFF02100545818 /* LPDictionaryKey.m */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		829E00B218E7E0B700CD32EA /* LeapView */ = {
-			isa = PBXGroup;
-			children = (
-				827BAB3718E8078E00545818 /* LPHandView.h */,
-				827BAB3818E8078E00545818 /* LPHandView.m */,
-			);
-			name = LeapView;
-			sourceTree = "<group>";
-		};
 		82AA84C218A9E5D50006CCD8 = {
 			isa = PBXGroup;
 			children = (
@@ -216,7 +103,6 @@
 		82AA84CD18A9E5D50006CCD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				828822D818DD5679008F8783 /* libLeap.dylib */,
 				826DBFED18D4241F00125045 /* CoreGraphics.framework */,
 				82AA84CE18A9E5D50006CCD8 /* Cocoa.framework */,
 				82AA84ED18A9E5D50006CCD8 /* XCTest.framework */,
@@ -238,18 +124,13 @@
 		82AA84D418A9E5D50006CCD8 /* LeapPainting */ = {
 			isa = PBXGroup;
 			children = (
-				827BAB4318E99E3A00545818 /* Util */,
-				827BAB3F18E80E0D00545818 /* Controller */,
-				827BAB3D18E8097E00545818 /* Listner */,
-				827BAB3C18E8096B00545818 /* Model */,
-				827BAB3B18E8095C00545818 /* View */,
 				82AA84E018A9E5D50006CCD8 /* AppDelegate.h */,
 				82AA84E118A9E5D50006CCD8 /* AppDelegate.m */,
 				82AA84E318A9E5D50006CCD8 /* MainMenu.xib */,
 				82AA84E618A9E5D50006CCD8 /* Images.xcassets */,
 				82AA84D518A9E5D50006CCD8 /* Supporting Files */,
-				828822DC18DD5795008F8783 /* LeapListner.h */,
-				828822DD18DD5795008F8783 /* LeapListner.m */,
+				8218489F18CC953E00B9B63E /* PaintingView.h */,
+				821848A018CC953E00B9B63E /* PaintingView.m */,
 			);
 			path = LeapPainting;
 			sourceTree = "<group>";
@@ -257,10 +138,6 @@
 		82AA84D518A9E5D50006CCD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				828822D118DD5659008F8783 /* Leap.h */,
-				828822D318DD5659008F8783 /* LeapMath.h */,
-				828822D418DD5659008F8783 /* LeapObjectiveC.h */,
-				828822D518DD5659008F8783 /* LeapObjectiveC.mm */,
 				82AA84D618A9E5D50006CCD8 /* LeapPainting-Info.plist */,
 				82AA84D718A9E5D50006CCD8 /* InfoPlist.strings */,
 				82AA84DA18A9E5D50006CCD8 /* main.m */,
@@ -298,7 +175,6 @@
 				82AA84C718A9E5D50006CCD8 /* Sources */,
 				82AA84C818A9E5D50006CCD8 /* Frameworks */,
 				82AA84C918A9E5D50006CCD8 /* Resources */,
-				828822DA18DD56A9008F8783 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -366,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AA84D918A9E5D50006CCD8 /* InfoPlist.strings in Resources */,
-				827BAB5818F0268900545818 /* LPViewController.xib in Resources */,
 				82AA84E718A9E5D50006CCD8 /* Images.xcassets in Resources */,
 				82AA84DF18A9E5D50006CCD8 /* Credits.rtf in Resources */,
 				82AA84E518A9E5D50006CCD8 /* MainMenu.xib in Resources */,
@@ -389,16 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AA84E218A9E5D50006CCD8 /* AppDelegate.m in Sources */,
-				827BAB4A18EFF02300545818 /* LPDictionaryKey.m in Sources */,
 				82AA84DB18A9E5D50006CCD8 /* main.m in Sources */,
-				827BAB4718E99ED600545818 /* LPNotification.m in Sources */,
-				827BAB4218E80E2800545818 /* LeapPaintingController.m in Sources */,
-				828822D718DD5659008F8783 /* LeapObjectiveC.mm in Sources */,
-				821848A118CC953E00B9B63E /* CanvasView.m in Sources */,
-				827BAB5718F0268900545818 /* LPViewController.m in Sources */,
-				827BAB3518E8014E00545818 /* LPHand.m in Sources */,
-				828822DE18DD5795008F8783 /* LeapListner.m in Sources */,
-				827BAB3918E8078E00545818 /* LPHandView.m in Sources */,
+				821848A118CC953E00B9B63E /* PaintingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,16 +395,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LIBRARY = "libstdc++";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/takao_maeda/Desktop,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeapPainting/LeapPainting-Prefix.pch";
 				INFOPLIST_FILE = "LeapPainting/LeapPainting-Info.plist";
-				LIBRARY_SEARCH_PATHS = /Users/takao_maeda/Dev_tool/LeapSDK/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -547,16 +408,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LIBRARY = "libstdc++";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/takao_maeda/Desktop,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeapPainting/LeapPainting-Prefix.pch";
 				INFOPLIST_FILE = "LeapPainting/LeapPainting-Info.plist";
-				LIBRARY_SEARCH_PATHS = /Users/takao_maeda/Dev_tool/LeapSDK/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

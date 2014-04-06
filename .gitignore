@@ -1,0 +1,11 @@
+
+
+LeapObjectiveC.h
+LeapObjectiveC.mm
+Leap.h
+LeapMath.h
+
+
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata

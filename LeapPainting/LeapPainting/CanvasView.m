@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 前田 恭男. All rights reserved.
 //
 
-#import "PaintingView.h"
+#import "CanvasView.h"
 
-@interface PaintingView (){
+@interface CanvasView (){
     CGMutablePathRef path;
     CGContextRef context;
     NSPoint prePoint;
@@ -18,7 +18,7 @@
 
 @end
 
-@implementation PaintingView
+@implementation CanvasView
 
 - (id)initWithFrame:(NSRect)frame
 {
@@ -40,7 +40,13 @@
     prePoint =point;
 }
 
--(void)moudDraggedWithLeap{}
+-(void)DrawWithLeap :(NSPoint)touchPoint{
+    if(prePoint.x != 0 && prePoint.y != 0){
+        [self drawLine:prePoint EndPoint:touchPoint];
+    }
+    prePoint = touchPoint;
+}
+
 
 -(void)changeLineColor :(NSColor*) color{
     kLineColor = [color CGColor];

@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface PaintingView : NSView
+@interface CanvasView : NSView
 
 @end
