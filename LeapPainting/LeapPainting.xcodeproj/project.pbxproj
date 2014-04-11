@@ -431,7 +431,7 @@
 				INFOPLIST_FILE = "LeapPainting/LeapPainting-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/takao_maeda/Dev_tool/LeapSDK/lib,
+					/Users/maeda_t/Dev_tool/LeapSDK/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -449,7 +449,7 @@
 				INFOPLIST_FILE = "LeapPainting/LeapPainting-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/takao_maeda/Dev_tool/LeapSDK/lib,
+					/Users/maeda_t/Dev_tool/LeapSDK/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

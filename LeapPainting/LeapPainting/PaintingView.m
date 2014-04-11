@@ -44,6 +44,8 @@
 
 
 
+
+
 -(void) mouseEntered:(NSEvent *)theEvent{
     isTracking = YES;
     [[self window] setAcceptsMouseMovedEvents:YES];
